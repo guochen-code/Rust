@@ -1,0 +1,10 @@
+data is immutable by default for safety, concurrency and speed
+
+// type aliasing
+type Age = u8;
+let peter_age: Age = 42;
+
+// type conversion
+let a: i32 = 10;
+let b = a as f64;
+
